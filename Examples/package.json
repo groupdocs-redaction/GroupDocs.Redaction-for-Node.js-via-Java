@@ -1,0 +1,35 @@
+{
+  "name": "groupdocs.redaction",
+  "version": "26.10",
+  "description": "GroupDocs.Redaction for Node.js via Java code examples",
+  "type": "module",
+  "main": "run_all_examples.js",
+  "imports": {
+    "#output": "./utils/output-path.js",
+    "#license": "./utils/apply-license.js",
+    "#samples": "./utils/sample-files.js"
+  },
+  "scripts": {
+    "start": "node run_all_examples.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@groupdocs/groupdocs.redaction": "file:../../../GitLab/NodeJs/Redaction/nodejs-via-java/groupdocs-groupdocs.redaction-26.10.0.tgz"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^15.14.0"
+  },
+  "overrides": {
+    "node-gyp": "^12.1.0"
+  },
+  "keywords": [
+    "groupdocs",
+    "redaction",
+    "examples"
+  ],
+  "author": "GroupDocs",
+  "license": "MIT"
+}
